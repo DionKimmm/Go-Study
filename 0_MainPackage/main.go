@@ -1,9 +1,13 @@
 package main
 
-import "fmt"
+import (
+  "fmt"
+  "github.com/dionkimm/Go-Study/0_MainPackage/something"
+)
 
 func main() {
   fmt.Println("Hello, World!")
+  something.SayHello()
 }
 
 
